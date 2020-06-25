@@ -1,10 +1,13 @@
 //font-family
 
 //path
-$path: '../img/';
+$path: '../images/';
+$path-font: '../fonts/';
 
 //basic
-
+$basic-font: 'Open Sans', sans-serif;
+$basic-size: 14px;
+$basic-lh: 21px;
 
 //wights
 $light: 300;
@@ -14,6 +17,8 @@ $semiBold: 600;
 $bold: 700;
 $bolder: 900;
 
-//colors
-$white: #ffffff;
-$black: #000000;
+$primary: #0044cc;
+$secondary: #4c4c4c;
+$extra: #ffd940;
+
+
