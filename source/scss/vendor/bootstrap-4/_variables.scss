@@ -166,10 +166,10 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
+  sm: 768px,
+  md: 1024px,
+  lg: 1249.5px,
+  xl: 1300px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -181,10 +181,10 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  sm: 750px,
+  md: 940px,
+  lg: 1200px,
+  xl: 1300px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -194,8 +194,8 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:                12 !default;
-$grid-gutter-width:           30px !default;
+$grid-columns:                16 !default;
+$grid-gutter-width:           20px !default;
 
 // Components
 //
