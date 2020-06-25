@@ -8,10 +8,18 @@
 @import "src/buttons";
 
 body {
+  font: $regular $basic-size $basic-font, sans-serif;
+  line-height: $basic-lh;
+  color: #000;
   background: #f2f2f2;
 }
 
-.row  {
+.row {
+  margin: 0 auto;
+}
+
+.limiter {
+  width: 940px;
   margin: 0 auto;
 }
 
