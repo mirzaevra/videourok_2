@@ -1,0 +1,14 @@
+.possibility {
+  .row.flex {
+    display: flex;
+    float: none;
+
+    & [class*='col-'] {
+      float: none;
+    }
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+}

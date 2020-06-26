@@ -1,1 +1,62 @@
-.possibility {}
+.possibility {
+
+  &__title {
+    padding-right: 10%;
+    font-size: $primary-size;
+    line-height: $primary-lh;
+    font-weight: $regular;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 0 10px 50px;
+    cursor: pointer;
+
+    &:hover {
+      .possibility__btn-text {
+        border-color: $primary;
+        color: $primary;
+      }
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 42px;
+      height: 42px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      background: url($path + "icon-play.png") no-repeat center;
+    }
+
+    &-text {
+      font-size: 13px;
+      line-height: 21px;
+      color: $secondary;
+      border-bottom: 1px dotted $secondary;
+      transition: border-color .3s linear, color .3s linear;
+    }
+  }
+
+  &-img-container {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  &__img {
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    width: 450px;
+    height: 490px;
+  }
+}

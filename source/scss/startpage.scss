@@ -1,11 +1,8 @@
-@import "vendor/bootstrap-4/functions";
-@import "vendor/bootstrap-4/variables";
-@import "vendor/bootstrap-4/mixins/breakpoints";
-
 @import "src/reset";
 @import "src/icon-fonts";
 @import "src/variables";
 @import "src/buttons";
+@import "src/modifiers";
 
 body {
   font: $regular $basic-size $basic-font, sans-serif;
@@ -14,12 +11,21 @@ body {
   background: #f2f2f2;
 }
 
+header,
+footer {
+  padding: 39px 0;
+  background: #333333;
+  text-align: center;
+  color: gainsboro;
+}
+
 .row {
   margin: 0 auto;
 }
 
 .limiter {
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
 }
 
+@import "components/possibility";
