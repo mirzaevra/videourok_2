@@ -1,5 +1,4 @@
 .possibility {
-
   &__title {
     padding-right: 10%;
     font-size: $primary-size;
@@ -39,7 +38,7 @@
 
     &-text {
       font-size: 13px;
-      line-height: 21px;
+      line-height: $basic-lh;
       color: $secondary;
       border-bottom: 1px dotted $secondary;
       transition: border-color .3s linear, color .3s linear;
@@ -48,7 +47,7 @@
 
   &-img-container {
     position: relative;
-    height: 400px;
+    height: 403px;
     overflow: hidden;
   }
 

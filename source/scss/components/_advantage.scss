@@ -1,0 +1,58 @@
+.advantage {
+  .container-inner {
+    padding: 68px 0;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+      position: relative;
+      flex: 0 0 calc(33% - 20px);
+      margin: 20px 10px;
+      padding-top: 83px;
+      text-align: center;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      &_use:before {
+        width: 81px;
+        height: 63px;
+        background: url($path + "list-icons/icon-use.png") no-repeat center;
+      }
+
+      &_control:before {
+        width: 71px;
+        height: 63px;
+        background: url($path + "list-icons/icon-control.png") no-repeat center;
+      }
+
+      &_material:before {
+        width: 75px;
+        height: 63px;
+        background: url($path + "list-icons/icon-material.png") no-repeat center;
+      }
+
+      &_help:before {
+        width: 57px;
+        height: 63px;
+        background: url($path + "list-icons/icon-help.png") no-repeat center;
+      }
+
+      &_process:before {
+        width: 63px;
+        height: 63px;
+        background: url($path + "list-icons/icon-process.png") no-repeat center;
+      }
+    }
+  }
+}
