@@ -41,6 +41,15 @@ footer {
   text-align: center;
 }
 
+.startpage-link {
+  color: $primary;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @import "components/possibility";
 @import "components/advantage";
 @import "components/tools";

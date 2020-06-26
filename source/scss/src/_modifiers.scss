@@ -1,7 +1,13 @@
-.possibility {
+.possibility,
+.tools {
   .row.flex {
     display: flex;
     float: none;
+
+    &.negative {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
 
     & [class*='col-'] {
       float: none;
