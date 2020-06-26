@@ -34,5 +34,13 @@ footer {
   background: white;
 }
 
+.subtitle {
+  font-size: $secondary-size;
+  line-height: $secondary-lh;
+  font-weight: 700;
+  text-align: center;
+}
+
 @import "components/possibility";
 @import "components/advantage";
+@import "components/tools";
