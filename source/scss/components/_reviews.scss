@@ -66,4 +66,28 @@
       color: $secondary;
     }
   }
+
+  .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+
+    .owl-dot {
+      width: 10px;
+      height: 10px;
+      background: $extra;
+      margin-right: 20px;
+      border-radius: 50px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.active {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
 }
