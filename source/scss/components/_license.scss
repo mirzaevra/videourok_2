@@ -1,0 +1,22 @@
+.license {
+  .container-inner {
+    padding: 65px 0;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  &__unit {
+    margin-bottom: 122px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

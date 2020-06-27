@@ -43,6 +43,10 @@ footer {
   line-height: $secondary-lh;
   font-weight: 700;
   text-align: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .startpage-link {
@@ -159,4 +163,5 @@ a {
 @import "components/working";
 @import "components/blog";
 @import "components/reviews";
+@import "components/license";
 
