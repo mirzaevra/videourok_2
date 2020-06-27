@@ -55,14 +55,24 @@ footer {
   }
 }
 
-.startpage-text {
-  margin-bottom: 25px;
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 
   &:active,
   &:focus,
   &:visited {
     color: $primary;
+    text-decoration: none;
   }
+}
+
+.startpage-text {
+  margin-bottom: 25px;
 
   &:last-child {
     margin-bottom: 0;
@@ -75,4 +85,5 @@ footer {
 @import "components/set";
 @import "components/courses";
 @import "components/olympiad";
+@import "components/webinars";
 
