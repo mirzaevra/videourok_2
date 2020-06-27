@@ -1,0 +1,19 @@
+.blog {
+  .container-inner {
+    padding: 25px 0;
+  }
+
+  .subtitle {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  &__img {
+    margin-top: -25px;
+    margin-left: -13px;
+  }
+}
