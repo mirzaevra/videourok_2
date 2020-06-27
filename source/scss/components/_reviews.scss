@@ -1,0 +1,68 @@
+.reviews {
+  padding: 20px 0;
+
+  .container-inner {
+    padding: 45px 0;
+  }
+
+  .subtitle {
+    margin-bottom: 71px;
+  }
+
+  &-slider {
+    padding: 0 105px;
+
+    &__row {
+      display: flex;
+    }
+
+    &__col {
+      margin-right: 27px;
+
+      &_photo {
+        flex: 0 0 201px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__unit {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 100%;
+        margin-right: 18px;
+        width: 51px;
+        height: 43px;
+        background: url($path + "icon-quotes.png") no-repeat center;
+      }
+    }
+
+    &__photo {
+      width: 201px;
+      height: 230px;
+    }
+
+    &__info {
+      margin-top: auto;
+    }
+
+    &__name {
+      font-size: $third-size;
+      font-weight: 700;
+    }
+
+    &__position {
+      font-size: 13px;
+      color: $secondary;
+    }
+  }
+}

@@ -32,6 +32,10 @@ footer {
   width: 1260px;
   margin: 0 auto;
   background: white;
+
+  &.transparent {
+    background: transparent;
+  }
 }
 
 .subtitle {
@@ -88,4 +92,5 @@ a {
 @import "components/webinars";
 @import "components/working";
 @import "components/blog";
+@import "components/reviews";
 
