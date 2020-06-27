@@ -1,28 +1,10 @@
-$(document).ready(function () {
-
-})
-
 $(window).on('load', function () {
-    Common.reviewsSlider()
+    var coursSlider = new Slider({
+        items: 1,
+        slideBy: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 10000
+    })
+    coursSlider.init($('#reviews-slider'))
 })
-
-
-$(window).on('resize', function () {
-
-})
-
-Common = {
-    events: function () {
-
-    },
-    init: function () {
-    },
-    reviewsSlider: function () {
-        $('#reviews-slider .owl-carousel').owlCarousel({
-            items: 1,
-            slideBy: 1,
-            loop: true
-        })
-    }
-
-}
