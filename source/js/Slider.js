@@ -1,13 +1,7 @@
 var Slider = function (settings) {
     this.instance = null
     this.container = null
-    this.settings = $.extend({
-        items: 1,
-        slideBy: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 10000
-    }, settings || {})
+    this.settings = $.extend({}, settings || {})
 }
 
 Slider.prototype.init = function (selector) {
