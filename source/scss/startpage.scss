@@ -83,6 +83,72 @@ a {
   }
 }
 
+.slider-control {
+
+  &__btn {
+    position: absolute;
+    width: 30px;
+    height: 42px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -20px;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 5px;
+      background: #e6e6e6;
+      border-radius: 50px;
+      transition: background .3s linear;
+    }
+
+    &.next {
+      right: 24px;
+
+      &:before {
+        top: 9px;
+        transform: rotate(45deg);
+        left: -1px;
+        border-bottom: none;
+      }
+
+      &:after {
+        bottom: 9px;
+        transform: rotate(-45deg);
+        left: -1px;
+        border-top: none;
+      }
+    }
+
+    &.prev {
+      left: 30px;
+
+      &:before {
+        top: 9px;
+        transform: rotate(-45deg);
+        left: -1px;
+        border-bottom: none;
+      }
+
+      &:after {
+        bottom: 9px;
+        transform: rotate(45deg);
+        left: -1px;
+        border-top: none;
+      }
+    }
+
+    &:hover:before,
+    &:hover:after {
+      background: $extra;
+    }
+  }
+}
+
 @import "components/possibility";
 @import "components/advantage";
 @import "components/tools";
