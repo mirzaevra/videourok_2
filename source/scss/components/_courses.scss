@@ -1,1 +1,23 @@
-.courses {}
+.courses {
+  .container-inner {
+    padding: 62px 0;
+    background: $additional;
+  }
+
+  .subtitle {
+    text-align: left;
+    margin-bottom: 27px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  &__img{
+    margin-top: -20px;
+  }
+}

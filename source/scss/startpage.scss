@@ -55,6 +55,14 @@ footer {
   }
 }
 
+.startpage-text {
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @import "components/possibility";
 @import "components/advantage";
 @import "components/tools";
