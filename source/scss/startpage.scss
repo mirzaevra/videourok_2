@@ -58,6 +58,12 @@ footer {
 .startpage-text {
   margin-bottom: 25px;
 
+  &:active,
+  &:focus,
+  &:visited {
+    color: $primary;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }

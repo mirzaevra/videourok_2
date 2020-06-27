@@ -2,4 +2,35 @@
   .container-inner {
     padding: 115px 0;
   }
+
+  .img-container {
+    position: relative;
+    text-align: center;
+    padding-top: 45px;
+    min-height: 245px;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 78px;
+      width: 178px;
+      height: 332px;
+    }
+
+    &:before {
+      right: 100%;
+      top: 114px;
+      margin-right: 27px;
+      background: url($path + "olympiad-img-decor-1.png") no-repeat center;
+    }
+
+    &:after {
+      width: 216px;
+      height: 404px;
+      left: 100%;
+      margin-left: 25px;
+      background: url($path + "olympiad-img-decor-2.png") no-repeat center;
+    }
+  }
 }
