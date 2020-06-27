@@ -44,9 +44,14 @@ footer {
 .startpage-link {
   color: $primary;
   cursor: pointer;
+  border-bottom: 1px dotted transparent;
+  transition: border-color .3s linear;
+  text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $primary;
+    border-bottom: 1px dotted $primary;
   }
 }
 
