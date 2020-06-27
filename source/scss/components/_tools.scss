@@ -14,8 +14,16 @@
   &__title,
   &__text {
     margin-bottom: 23px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
+  .img-container {
+    text-align: center;
+    padding: 20px 0;
+  }
 }
 
 @import "tabSwitcher";

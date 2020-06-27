@@ -1,0 +1,21 @@
+.set {
+  .container-inner {
+    padding: 80px 0 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  &-img-container {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
