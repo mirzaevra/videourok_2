@@ -1,15 +1,68 @@
 @media screen and (max-width: 1249px) {
   .startpage-container,
-  .container-inner {
+  .container-inner,
+  .limiter {
     width: 900px;
   }
-  .limiter {
-    width: 820px;
+
+  .startpage-container {
+    margin-bottom: 140px;
   }
+
+  .startpage-container .limiter {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .possibility .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .possibility__title {
+    padding-right: 0;
+  }
+
+  .advantage .container-inner,
+  .tools .container-inner {
+    padding-bottom: 20px;
+  }
+
+  .set .container-inner,
+  .courses .container-inner,
+  .reviews .container-inner {
+    padding: 40px 0;
+  }
+
+  .olympiad .container-inner {
+    padding-top: 50px;
+  }
+
+  .webinars .subtitle {
+    padding-right: 0;
+  }
+
+  .reviews .subtitle {
+    margin-bottom: 40px;
+  }
+
+  .license__unit {
+    margin-bottom: 65px;
+  }
+
+
+  .social {
+    bottom: 0;
+  }
+
 
   .tab-switcher__button span {
     align-items: start;
     line-height: 16px;
     min-height: 42px;
+  }
+  .social {
+    margin-left: -40px;
+    margin-right: -40px;
   }
 }
