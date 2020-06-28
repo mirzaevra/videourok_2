@@ -1,0 +1,15 @@
+@media screen and (max-width: 1249px) {
+  .startpage-container,
+  .container-inner {
+    width: 900px;
+  }
+  .limiter {
+    width: 820px;
+  }
+
+  .tab-switcher__button span {
+    align-items: start;
+    line-height: 16px;
+    min-height: 42px;
+  }
+}
