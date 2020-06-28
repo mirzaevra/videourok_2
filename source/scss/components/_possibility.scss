@@ -52,13 +52,11 @@
   .img-container {
     position: relative;
     height: 403px;
+    text-align: center;
     overflow: hidden;
   }
 
   &__img {
-    position: absolute;
-    top: -8px;
-    left: 8px;
     width: 450px;
     height: 490px;
   }
