@@ -6,14 +6,18 @@
   }
 
   .startpage-container .limiter {
-    padding:  0 10px;
+    padding: 0 10px;
   }
 
   .possibility__title {
     padding-right: 0;
   }
 
-  .reviews-slider__col_photo  {
+  .olympiad .img-container:before, .olympiad .img-container:after {
+    display: none;
+  }
+
+  .reviews-slider__col_photo {
     flex: 0 0 120px
   }
 
