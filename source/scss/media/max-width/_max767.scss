@@ -103,4 +103,36 @@
   .advantage-list__item {
     flex: 0 0 100%;
   }
+  .reviews-slider {
+    padding: 0;
+  }
+
+  .slider-control {
+    display: none;
+  }
+
+  .reviews-slider__row {
+    flex-wrap: wrap;
+  }
+  .reviews-slider__col {
+    flex: 0 0 100%;
+
+    &_photo {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .reviews-slider__photo {
+    max-width: 92px;
+    max-height: 105px;
+  }
+
+  .reviews-slider__unit:before {
+    right: auto;
+    left: 40px;
+    top: -60px;
+    margin-right: 0;
+
+  }
 }
