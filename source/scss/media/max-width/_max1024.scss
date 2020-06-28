@@ -2,11 +2,15 @@
   .startpage-container,
   .container-inner,
   .limiter {
-    width: 750px;
+    width: 100%;
   }
 
   .startpage-container .limiter {
     padding:  0 10px;
+  }
+
+  .possibility__title {
+    padding-right: 0;
   }
 
   .reviews-slider__col_photo  {
@@ -15,5 +19,9 @@
 
   .reviews-slider__photo {
     height: auto;
+  }
+
+  .social {
+    margin: 0 -10px;
   }
 }
