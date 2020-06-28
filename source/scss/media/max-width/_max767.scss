@@ -38,7 +38,7 @@
   .working,
   .blog,
   .courses,
-  .set{
+  .set {
     .subtitle {
       text-align: center;
     }
@@ -77,5 +77,30 @@
     &__item {
       margin: 20px;
     }
+  }
+
+  .tools,
+  .advantage,
+  .set,
+  .courses,
+  .olympiad,
+  .webinars,
+  .working,
+  .blog,
+  .reviews,
+  .license {
+    .container-inner {
+      padding: 30px 0;
+    }
+  }
+
+  .license {
+    .container-inner {
+      padding-bottom: 0;
+    }
+  }
+
+  .advantage-list__item {
+    flex: 0 0 100%;
   }
 }
