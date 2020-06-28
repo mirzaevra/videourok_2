@@ -15,7 +15,8 @@ $(window).on('load', function () {
     const coursSlider = new Slider({
         items: 1,
         slideBy: 1,
-        loop: true
+        loop: true,
+        autoHeight : true,
         // autoplay: true,
         // autoplayTimeout: 10000
     })

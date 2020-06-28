@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+  .startpage-container,
+  .container-inner,
+  .limiter {
+    width: 750px;
+  }
+
+  .startpage-container .limiter {
+    padding:  0 10px;
+  }
+
+  .reviews-slider__col_photo  {
+    flex: 0 0 120px
+  }
+
+  .reviews-slider__photo {
+    height: auto;
+  }
+}
