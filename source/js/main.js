@@ -16,9 +16,9 @@ $(window).on('load', function () {
         items: 1,
         slideBy: 1,
         loop: true,
-        autoHeight : true,
-        // autoplay: true,
-        // autoplayTimeout: 10000
+        autoHeight: true,
+        autoplay: true,
+        autoplayTimeout: 10000
     })
     coursSlider.init($('#reviews-slider'))
-})
+});
