@@ -2,4 +2,80 @@
   .hidden-xs {
     display: none;
   }
+  .possibility {
+    padding: 30px 0;
+    text-align: center;
+
+    .startpage-text {
+      margin: 30px 0 0;
+    }
+  }
+
+  .tab-switcher__head {
+    display: none;
+  }
+
+  .tab-switcher__unit {
+    display: block;
+  }
+
+  .order-xs-1 {
+    order: 1;
+  }
+
+  .order-xs-2 {
+    order: 2;
+  }
+
+  .set .img-container {
+    text-align: center;
+  }
+
+  .olympiad .img-container {
+    margin-bottom: 10px;
+  }
+  .webinars,
+  .working,
+  .blog,
+  .courses,
+  .set{
+    .subtitle {
+      text-align: center;
+    }
+
+    .img-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  .tools__title {
+    text-align: center;
+  }
+
+  .license .subtitle {
+    text-align: center;
+  }
+
+  .license__unit {
+    margin-bottom: 30px;
+  }
+
+  .license .img-container {
+    margin: 20px 0;
+  }
+
+  .social__container {
+    padding: 45px 30px;
+  }
+
+  .social-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    &__item {
+      margin: 20px;
+    }
+  }
 }

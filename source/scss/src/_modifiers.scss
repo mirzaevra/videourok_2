@@ -1,9 +1,14 @@
 .possibility,
+.advantage,
 .tools,
 .set,
-.webinars {
+.courses,
+.webinars,
+.blog,
+.license {
   .row.flex {
     display: flex;
+    flex-wrap: wrap;
     float: none;
 
     &.negative {
