@@ -5,6 +5,10 @@
     width: 100%;
   }
 
+  .startpage-container {
+    margin-bottom: 60px;
+  }
+
   .startpage-container .limiter {
     padding: 0 10px;
   }
@@ -13,7 +17,8 @@
     padding-right: 0;
   }
 
-  .olympiad .img-container:before, .olympiad .img-container:after {
+  .olympiad .img-container:before, .olympiad .img-container:after,
+  .social-decor {
     display: none;
   }
 
