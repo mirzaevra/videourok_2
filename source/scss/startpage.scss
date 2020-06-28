@@ -51,6 +51,10 @@ footer {
   font-weight: 700;
   text-align: center;
 
+  &_mobile {
+    display: none;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
