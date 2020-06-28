@@ -44,10 +44,19 @@
         background: url($path + "icon-quotes.png") no-repeat center;
       }
     }
-
     &__photo {
       width: 201px;
       height: 230px;
+
+      &-container {
+        .reviews-slider__info {
+          display: none;
+          margin-top: 0;
+        }
+        .reviews-slider__name {
+          margin-top: 0;
+        }
+      }
     }
 
     &__info {
@@ -64,6 +73,8 @@
       font-size: 13px;
       color: $secondary;
     }
+
+
   }
 
   .owl-dots {

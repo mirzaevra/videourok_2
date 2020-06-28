@@ -126,6 +126,7 @@
   .reviews-slider__photo {
     max-width: 92px;
     max-height: 105px;
+    margin-right: 30px;
   }
 
   .reviews-slider__unit:before {
@@ -134,5 +135,14 @@
     top: -60px;
     margin-right: 0;
 
+  }
+  .reviews-slider__info {
+    display: none;
+  }
+  .reviews-slider__photo-container {
+    display: flex;
+    .reviews-slider__info {
+      display: block;
+    }
   }
 }
