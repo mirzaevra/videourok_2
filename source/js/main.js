@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $(window).on('scroll', function () {
         if ($('#possibility').height() + 100 > this.pageYOffset) {
             var paralaxSpeed = .2
@@ -10,8 +9,7 @@ $(document).ready(function () {
             })
         }
     })
-
-})
+});
 
 $(window).on('load', function () {
     const coursSlider = new Slider({
