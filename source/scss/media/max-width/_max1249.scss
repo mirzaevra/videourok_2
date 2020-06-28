@@ -19,16 +19,22 @@
     margin-right: -10px;
   }
 
-  .possibility__title {
-    padding-right: 0;
-  }
-
-  .advantage .container-inner,
-  .tools .container-inner {
+  .advantage .container-inner {
     padding-bottom: 20px;
   }
 
-  .set .container-inner,
+  .tools .container-inner {
+    padding: 70px 0 30px;
+  }
+
+  .tools .subtitle {
+    padding: 0;
+  }
+
+  .set .container-inner {
+    padding: 30px 0;
+  }
+
   .courses .container-inner,
   .reviews .container-inner {
     padding: 40px 0;
@@ -47,7 +53,7 @@
   }
 
   .license__unit {
-    margin-bottom: 65px;
+    margin-bottom: 85px;
   }
 
 
