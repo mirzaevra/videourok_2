@@ -9,16 +9,23 @@ $(document).ready(function () {
             })
         }
     })
-});
+})
 
 $(window).on('load', function () {
     const coursSlider = new Slider({
         items: 1,
         slideBy: 1,
         loop: true,
-        autoHeight: true,
         autoplay: true,
-        autoplayTimeout: 10000
+        autoplayTimeout: 10000,
+        responsive: {
+            0: {
+                autoHeight: true
+            },
+            1024: {
+                autoHeight: false
+            }
+        }
     })
     coursSlider.init($('#reviews-slider'))
-});
+})
