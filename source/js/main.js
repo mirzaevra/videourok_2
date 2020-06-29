@@ -9,6 +9,10 @@ $(window).on('load', function () {
     Common.reviewsSlider()
 })
 
+$(window).on('resize', function () {
+    Common.floatTitle(this)
+})
+
 const Common = {
     reviewsSlider() {
         const reviewsSlider = new Slider({
@@ -39,6 +43,7 @@ const Common = {
         }
     },
     floatTitle(self) {
+        const floatTtile = $('[data-float="title"]')
         if ($(window).width() <= 767) {
             const parent = $('.tools')
             const floatTtile = $('[data-float="title"]')
@@ -50,6 +55,8 @@ const Common = {
             } else {
                 floatTtile.fadeOut()
             }
+        } else {
+            floatTtile.fadeOut(100)
         }
     }
 }
