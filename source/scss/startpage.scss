@@ -72,6 +72,14 @@ footer {
     color: $primary;
     border-bottom: 1px dotted $primary;
   }
+
+  &.native-link {
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px solid $primary;
+    }
+  }
 }
 
 a {
