@@ -98,6 +98,21 @@ a {
   }
 }
 
+.float-title {
+  display: none;
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background: #fff;
+
+  .subtitle {
+    margin: 0 !important;
+  }
+}
+
 .startpage-text {
   margin-bottom: 25px;
 
