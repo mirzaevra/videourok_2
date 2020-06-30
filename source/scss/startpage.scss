@@ -4,19 +4,12 @@
 @import "src/buttons";
 @import "src/modifiers";
 
-body {
+.wrapper_startpage {
   font: $regular $basic-size $basic-font, sans-serif;
   line-height: $basic-lh;
   color: #000;
   background: #f2f2f2;
-}
-
-header,
-footer {
-  padding: 39px 0;
-  background: #333333;
-  text-align: center;
-  color: gainsboro;
+  margin-top: -10px;
 }
 
 .row {
@@ -202,5 +195,5 @@ a {
 @import "components/blog";
 @import "components/reviews";
 @import "components/license";
-@import "components/social";
+@import "components/social-bar";
 
