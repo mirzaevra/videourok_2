@@ -10,6 +10,35 @@
   color: #000;
   background: #f2f2f2;
   margin-top: -10px;
+
+
+  h1,
+  h2.h1 {
+    font-size: 1.688em;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 400;
+  }
+
+  h2,
+  h3 {
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  ul li {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
 .row {
